@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+<body>
+    <div id="app">
+<div class="o-card">
+<div class="card" style="width: 18rem ;" >
+    <img src="../assets/iconojuego.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">JUGAR</h5>
+      <input type="text "v-model="NombreJugador" @keyup.enter="enblanco">
+      <p class="card-text">Debes escribir tu nombre antes para poder jugar, preciona enter cuando lo hayas escrito</p>
+      <a href="juego.html">
+        <button  id="btnjugar" disabled type="button" class="btn btn-primary">JUGAR</button>
+      </a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem ;" >
+    <img src="../assets/primer-lugar.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">SCORE</h5>
+      
+      <p class="card-text">Te permitira ver los puntajes de todos los juegos</p>
+      <a href="juego.html">
+        <button  id="btnjugar"  type="button" class="btn btn-primary">PUNTAJES</button>
+      </a>
+    </div>
+  </div>
+
+
+
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script  src="inicio.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+body {
+    display: flex;
+ justify-content: center;
+ margin:5%;
+ 
+}
+.o-card {
+
+    display: flex;
+    flex-direction: row;
+   
+}
+.card{
+    margin: 1rem;
+}
